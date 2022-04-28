@@ -246,3 +246,33 @@
     .users-list a .status-dot.offline {
         color: #ccc;
     }
+    /* Chat Area CSS Code */
+    
+    .chat-area header {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    
+    .chat-area header .back-icon {
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .chat-area header img {
+        height: 45px;
+        width: 45px;
+        margin: 0 15px;
+    }
+    
+    .chat-area header span {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    .chat-box {
+        height: 500px;
+        background: #f7f7f7;
+        padding: 10px 30px 20px 30px;
+        box-shadow: inset 0 32px 32px -32px rgba(0 0 0 5%), inset 0 -32px 32px -32px rgba(0 0 0 / 5%), ;
+    }
